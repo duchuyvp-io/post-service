@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-push:
-    runs-on: self-hosted-runner
+    runs-on: dind-runner
     services:
       postgres:
         image: postgres:13
